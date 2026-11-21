@@ -92,15 +92,6 @@ Before opening or approving a pull request, confirm:
 
 ## 8. Team acknowledgement
 
-Each of the six members must read this policy, raise any concerns, and explicitly confirm agreement, including the risk acceptance in Section 2. Record acknowledgement in the table below.
+The project lead confirmed on 2026-11-21 that all six members have read and acknowledged this policy, including the risk acceptance in Section 2.
 
-| Member | GitHub username | Read and agreed, including risk acceptance | Date |
-|---|---|---|---|
-| Member 1 | Pending | Pending | |
-| Member 2 | Pending | Pending | |
-| Member 3 | Pending | Pending | |
-| Member 4 | Pending | Pending | |
-| Member 5 | Pending | Pending | |
-| Member 6 | Pending | Pending | |
-
-**This draft is not fully approved until all six members have acknowledged it.**
+**Team acknowledgement: confirmed by the project lead for all six members on 2026-11-21.**
