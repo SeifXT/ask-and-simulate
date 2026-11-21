@@ -29,7 +29,7 @@ The following safeguards still apply:
 - Check every change before staging, committing or pushing. Do not assume a secret is safe to push because the repository is private or because it will be deleted in a later commit.
 - Prefer scoped, least-privilege keys with usage limits and expiration where the provider supports them. Avoid sharing administrator or production credentials when a restricted development key will work.
 - Share a credential only when the person or tool receiving it needs it for the project. Do not repost it unnecessarily or include it in documentation, screenshots, examples or test fixtures.
-- If a credential is exposed somewhere it should not be, notify the credential owner and repository owner promptly, revoke or rotate it, and investigate where it may have been retained. Deleting the visible message or file is not sufficient.
+- If a credential is exposed somewhere it should not be, notify the project lead promptly. The project lead (Seif) is responsible for coordinating revocation or rotation of shared project API keys and investigating where they may have been retained. Deleting the visible message or file is not sufficient.
 - Do not use real personal, customer, employee, university or third-party information unless the team has the necessary authority to use and share it. The team's risk acceptance does not override laws, contracts, data-owner restrictions or university requirements.
 
 ## 3. Project data rules
@@ -66,10 +66,8 @@ Project-specific controls:
 
 - Follow the university's current rules for AI assistance, citation and disclosure.
 - Do not submit AI-generated work as wholly human-authored if disclosure is required.
-- Keep a concise project AI usage log. Record meaningful AI assistance, what the team changed, and how the result was verified.
 - Never invent sources, citations, experiments, test results or implementation progress.
 
-Suggested log fields: date, contributor, tool, task, type of assistance, files/sections affected, human changes, verification performed.
 
 ## 6. Repository and credential security
 
@@ -77,7 +75,7 @@ Suggested log fields: date, contributor, tool, task, type of assistance, files/s
 - Keep local secrets in untracked environment files. `.env.example` may contain variable names and harmless placeholders only.
 - Do not put secrets in source code, notebooks, screenshots, issue descriptions, pull requests, commit messages or CI logs.
 - Enable repository secret scanning and push protection where the repository's GitHub plan and settings support them. CI scanning is an additional layer, not a replacement.
-- If a secret is exposed in GitHub, tell the repository owner immediately, revoke or rotate it at the provider, then remove it from the repository history as appropriate. Deleting the visible line alone does not invalidate a leaked credential.
+- If a secret is exposed in GitHub, tell the project lead immediately. The project lead (Seif) is responsible for coordinating revocation or rotation of shared project API keys; the exposed secret must then be removed from repository history as appropriate. Deleting the visible line alone does not invalidate a leaked credential.
 - Do not attempt to test with real credentials in shared logs or CI output.
 
 ## 7. Pull-request checklist
@@ -89,7 +87,7 @@ Before opening or approving a pull request, confirm:
 - [ ] Any AI-generated contribution has been reviewed and understood by the author.
 - [ ] Relevant tests have been run and their results are accurately reported.
 - [ ] Calculations, SQL and optimisation behaviour have been independently checked where applicable.
-- [ ] Documentation and the AI usage log have been updated where relevant.
+- [ ] Relevant documentation has been updated.
 - [ ] The author can explain the change and its limitations.
 
 ## 8. Team acknowledgement
