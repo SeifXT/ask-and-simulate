@@ -22,12 +22,15 @@ A task is complete only when:
 
 ## AI-assisted development
 
-- Follow university AI-use rules and the team's agreed AI-tool policy.
-- Do not paste secrets, credentials or personal data into AI tools.
-- Record generated assistance, human changes and verification in the project AI usage log.
+- Follow university AI-use rules and the team's agreed policy in `docs/ai-tool-policy.md`.
+- The university has approved the team's use of AI tools. The team has acknowledged the policy's risk acceptance for sharing project-related sensitive information and active API keys in AI/team chats.
+- This risk acceptance does not permit committing credentials to GitHub. Keep real credentials in local untracked environment files or approved secrets storage.
+- No AI usage log is required by the team.
+- Read and understand generated code before committing it.
 - Do not accept generated calculations without tests or independent checks.
 - Simulator expected values in core unit tests must be hand-calculated by a human.
-- The product LLM may interpret and explain; deterministic code owns calculations, SQL enforcement and solver construction.
+- The product LLM may interpret and explain; deterministic code owns calculations, SQL enforcement, simulation and solver construction.
+- Contributors must be able to explain their own work and its limitations.
 
 ## Testing expectations
 
