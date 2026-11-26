@@ -21,7 +21,7 @@ This is the v3 proposal's intended architecture, not a claim that every componen
 | Optimizer | Select from a tested catalog; assemble LP/MILP models in Python using PuLP and HiGHS; never let the LLM write solver code. |
 | API | FastAPI endpoints: `/ask`, `/simulate`, `/optimize`. Contracts precede implementation. |
 | Web application | Next.js/React interface with chat, evidence panels, fan charts, sliders, scenario presets, model-card approval and decision memo export. |
-| Governance and evaluation | Security tests, decision log, AI-use log, model limitations, evaluation sets, SME user testing and business case. |
+| Governance and evaluation | Security tests, decision log, model limitations, evaluation sets, SME user testing and business case. |
 
 ## Data and inventory boundaries
 
@@ -65,5 +65,6 @@ Every optimizer plan must also be run in twin plan mode and checked under uncert
 - Parameter values and optimizer catalog selections are validated in code.
 - The LLM cannot execute Python, write optimization models or change simulator logic.
 - Unsupported, unsafe, ambiguous or impossible requests must be clarified or refused rather than guessed.
-- Every recommendation is logged with its approval decision. A human approves every plan; no order is placed automatically.
+- Every recommendation is recorded with its approval decision. A human approves every plan; no order is placed automatically.
+- Follow `docs/ai-tool-policy.md` for AI-tool and information-handling rules.
 - Never commit secrets or real customer personal data.
