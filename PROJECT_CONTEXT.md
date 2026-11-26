@@ -3,7 +3,7 @@
 **Purpose:** Canonical context for all six team members and their AI workspaces. Read this before proposing changes or generating project code.
 **Project:** Ask & Simulate
 **Last updated:** 2026-11-21
-**Baseline:** Approved v3 proposal and current repository documentation.
+**Baseline:** Team-approved v3 proposal and current repository documentation. Supervisor approval is pending (see `docs/supervisor-review-v3.md`).
 **Status:** Initial shared context. Items marked TBD are deliberately unresolved; do not invent values.
 
 ## 1. Project in one paragraph
@@ -80,7 +80,7 @@ For every EGP input record: identifier, value, unit, sourced/assumed classificat
 - Follow `docs/development-workflow.md` for branches, pull requests, reviews and definition of done.
 - Follow `docs/ai-tool-policy.md` for the team's approved AI-tool use, project-context sharing, agreed risk acceptance and credential handling.
 - All six members have acknowledged the AI-tool policy (confirmed by the project lead on 2026-11-21).
-- University approval covers the team's use of AI tools. The team has explicitly accepted the risks of sharing project-related sensitive information and active API keys in AI chats/projects and team communication channels.
+- The team has explicitly accepted the risks of sharing project-related sensitive information and active API keys in AI chats/projects and team communication channels.
 - Despite that team risk acceptance, credentials must never be committed to GitHub. Use local untracked .env files or approved secret storage. The project lead coordinates rotation of shared keys if exposed.
 - No AI usage log is required by the team.
 - AI-generated work must be read, understood, tested and independently checked before it is relied on or committed. Contributors must be able to explain their work.

@@ -5,16 +5,16 @@
 **Applies to:** All six project members and anyone contributing to the repository  
 **Last updated:** 2026-11-21
 
-This policy records the team's agreed approach to AI-assisted project work and information sharing. University approval to use AI tools does not mean every tool has identical privacy, retention or security protections. Each contributor is responsible for understanding the risks of the services and channels they use.
+This policy records the team's agreed approach to AI-assisted project work and information sharing. Not every AI tool has identical privacy, retention or security protections. Each contributor is responsible for understanding the risks of the services and channels they use.
 
 ## 1. Approved AI tools and project context
 
-- The university has approved the team's use of AI tools for this project. Team members may use AI tools they consider useful, subject to applicable university rules and the safeguards in this policy.
+- Team members may use AI tools they consider useful, subject to the safeguards in this policy.
 - The team may create a project/workspace in an AI tool and provide it with project context, including project documentation, specifications, source code and other materials the team decides are appropriate to share.
 - Team members may use AI tools to discuss project implementation, debug code, review designs, analyse information and help produce documentation.
 - AI-generated output is a suggestion and must be reviewed and verified by a team member before it is relied on or committed.
-- Before using a tool, contributors should consider its data retention, model-training, access-control and account-sharing settings. University approval does not guarantee that a provider will keep submitted information confidential.
-- Do not connect an AI tool to GitHub, cloud storage, email or other accounts unless the project owner has approved the integration and its permissions.
+- Before using a tool, contributors should consider its data retention, model-training, access-control and account-sharing settings. Providers do not guarantee that submitted information will stay confidential.
+- Do not connect an AI tool to GitHub, cloud storage, email or other accounts unless the project owner (Seif) has approved the integration and its permissions.
 
 ## 2. Sensitive information and credentials: agreed risk
 
@@ -64,7 +64,7 @@ Project-specific controls:
 
 ## 5. Academic integrity and disclosure
 
-- Follow the university's current rules for AI assistance, citation and disclosure.
+- If the university or course sets rules for AI assistance, citation or disclosure, follow them.
 - Do not submit AI-generated work as wholly human-authored if disclosure is required.
 - Never invent sources, citations, experiments, test results or implementation progress.
 

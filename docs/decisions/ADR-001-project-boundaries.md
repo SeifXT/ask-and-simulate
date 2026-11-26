@@ -1,6 +1,6 @@
 # ADR-001: Project boundaries and responsibility split
 
-- **Status:** Accepted as the v3 proposal baseline
+- **Status:** Accepted by the team as the v3 proposal baseline (supervisor approval pending)
 - **Date:** 2026-11-21
 
 ## Context
